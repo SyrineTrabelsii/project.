@@ -1,0 +1,143 @@
+.navbar {
+    width: 88% ;
+    margin: auto;
+    padding: 15px 0 ;
+    display: flex;
+    align-items: center ;
+    justify-content:space-between ;
+}
+
+.logo{
+    width: 100px ;
+    cursor: pointer
+
+}
+
+.navbar ul li {
+    list-style : none ;
+    display: inline-block ;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #beb2b2 ;
+    font-size: 17px ;
+    font-weight:400 ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.navbar ul li a:hover {
+    transition: all ease 0.5s;
+    color: teal;
+    
+}
+ .main{
+    height: 100vh;
+    width: 100%;
+    font-family: century Gothic ;
+    background: url(../res/fon-temno-plastinka-vinil.jpg) no-repeat;
+    background-size: cover;
+    background-position : center;
+    position: relative;
+}
+
+
+.container1 {
+    height : 75vh;
+    width:30%;
+    background : rgba(0,0,0, .6);
+    position : absolute;
+    top:57%;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+
+}
+
+.image {
+    height :70px;
+    width: 70px;
+    background: url("../res/headphones-woman.jpg")no-repeat ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: absolute ;
+    top:0%;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+}
+
+.container1 h1 {
+    color:#e6e3e3 ;
+    margin-top: 50px ;
+    
+
+}
+
+.container1 p {
+    color: white;
+    margin-top: 60px;
+    font-size: large;
+    
+
+}
+
+.btn {
+    background: no-repeat;
+    outline: none;
+    border: 1px solid white;
+    color: white ;
+    width : 50%;
+    padding: 7px 15px ;
+    font-size: large ;
+    cursor: pointer ;
+    transition : 0.3s ease ;
+    margin-top: 30px;
+
+
+}
+
+.btn:hover {
+    background : white;
+    color : black ;
+}
+
+
+
+
+.a-social-b{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+}
+
+.a-social-b a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height : 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #FFFFFF;
+    border:1px solid #cbcbcb;
+    box-shadow : 2px 2px 12px rgb(0,0,0,0.2);
+
+}
+
+.a-social-b a:hover {
+    background-color:#853e3e;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+  }
+.a-social-b i {
+    color: #2b2b2b;
+    font-size: 20px;
+}
+.a-social-b a:hover i {
+    color:#FFFFFF;
+    transition: all ease 0.5s;
+}

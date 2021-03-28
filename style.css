@@ -1,0 +1,467 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../res/aaba5de665f57065ad1ff29c3599d015.jpg);
+    background-size: cover ;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    width: 88% ;
+    margin: auto;
+    padding: 15px 0 ;
+    display: flex;
+    align-items: center ;
+    justify-content:space-between ;
+}
+
+.logo{
+    width: 100px ;
+    cursor: pointer
+
+}
+
+.navbar ul li {
+    list-style : none ;
+    display: inline-block ;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #beb2b2 ;
+    font-size: 17px ;
+    font-weight:400 ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.navbar ul li a:hover {
+    transition: all ease 0.5s;
+    color: teal;
+    
+}
+.content {
+    width: 100%;
+    position: absolute ;
+    top: 30%;
+
+
+}
+
+.left {
+    margin-left: 6%;
+}
+.left h1{
+    font-size: 50px ;
+    color: rgb(142, 149, 151) ;
+    line-height: 85px ;
+    float: left;
+    text-shadow: 3px 3px 5px rgb(230, 20, 55) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20%;
+    
+
+}
+
+.right .volume{
+	position: absolute;
+    float: right;
+    right: 128px;
+	bottom: 50px;
+	margin-top: 120px;
+	width: 3%;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.right .volume p{
+	font-size: 15px;
+}
+.right .volume i{
+	cursor: pointer;
+	
+	background:#545758;
+}
+.right.volume i:hover{
+	background: rgba(245,245,245,0.1);
+}
+.volume #volume_show{
+	padding: 8px 12px;
+	margin: 0 5px 0 0;
+	background: rgba(245,245,245,0.1);
+}
+
+.right {
+    float: right ;
+    margin-right : 6%;
+    margin-top: 120px ;
+    display: flex;
+    align-items : center ;
+    
+}
+
+.right .middle button{
+    float: right ;
+    margin-top: 180px ;
+    align-items : center ;
+	border: none;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	outline: none;
+	transition: 0.2s;
+	background: rgba(255,255,255,0.1);
+}
+
+#play{
+	background: #545758;
+}
+.right button:hover{
+	background: #be5c75;
+	background: #be5c75;
+	
+}
+.right i:before{
+	color: #fff;
+	font-size: 20px;
+}
+
+.right .show_song_no{
+    position: absolute;
+    float: right ;
+    right: 128px;
+    margin-top: 50px ;
+    display :flex;
+    justify-content: center;
+    align-items : center ;
+	border-radius: 5px;
+	height: 20px;
+	width: 30px;
+    padding : 8px 12px ;
+	background: rgba(248, 244, 244, 0.1);
+    color: beige;
+    font-size: 20px;
+}
+.right .show_song_no p:nth-child(2){
+	margin: 15 20px;
+    color: beige;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: url(../res/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg);
+    background-size: cover;
+}
+.box{
+    width:300px;
+    padding:30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.4);
+    text-align : center ;
+
+}
+
+.box h1{
+    color:white ;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input[type="email"], .box input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto ;
+    text-align: center ;
+    border: 3px solid #d82cd8 ;
+    padding: 14px 10px ;
+    width: 220 px ;
+    outline: none;
+    color: white;
+    border-radius: 24px ;
+    transition: 0.25px ;
+
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block ;
+    margin: 20px auto;
+    text-align: center ;
+    border: 3px solid #ffc400ec ;
+    padding: 14px 35px ;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25px;
+    cursor: pointer;
+
+}
+
+.box input[type="submit"]:hover {
+    background: #ffc400ec ;
+}
+
+
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.main-header {
+    background-color:rgb(148 69 69 / 60%);
+    
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+
+.content-section {
+    margin: 1em;
+    background: rgb(235, 231, 225);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+.btn-primary {
+    color: white;
+    background-color: #b85f5f;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #853e3e;
+}
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #789aa5;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+
+  
+.footer {
+    height:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    position: relative ;
+    top:100px;
+
+}
+
+
+.social-icons a {
+ width:60px;
+ height:60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #e6e3e3;
+ margin:20px 10px; 
+ border-radius : 50%;
+
+}
+
+.social-icons{
+  display: flex;
+  position:relative;
+  top:1px;
+}
+
+
+
+
+
+.social-icons i{
+  color: #000000;
+}
+
+.social-icons a:hover {
+  background-color:#853e3e;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+  transition: all ease 0.5s;
+}
+
+.social-icons a:hover i  {
+  color:#FFFFFF;
+  transition: all ease 0.5s;
+}
+ 
+
+

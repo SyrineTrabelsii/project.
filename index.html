@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>music player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <img src="res/Free-music-logo-design-on-wall-presentation-scaled.jpg" class="logo">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="ABOUT.html">ABOUT</a></li>
+              
+              <li><a href="PRODUCTS.html">PRODUCTS</a></li>
+              <li><a href="LOGIN.html">LOGIN</a></li>
+
+            </ul>
+
+          </div>
+          <div class="content">
+              <div class="left">
+                <h1>MUSIC ON <br> WORLD OFF </h1>
+            
+            </div>
+
+            <div class="right">
+                <div class="volume">
+                    <p id="volume_show">90</p>
+                    <i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
+                    <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+                 </div>
+
+                <div class="show_song_no">
+                  <p id="present">1</p>
+                  <p>/</p>
+                  <p id="total">5</p>
+                </div>
+                <div class="middle">
+                    <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+                    <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+                    <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+                </div>
+       
+          </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
